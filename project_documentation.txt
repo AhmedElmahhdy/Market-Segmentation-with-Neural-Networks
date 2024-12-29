@@ -1,0 +1,42 @@
+
+Capstone: Market Segmentation with Neural Networks
+
+Project Overview:
+This project involves segmenting the market using a neural network model. 
+It utilizes the Online Retail Dataset to analyze customer spending patterns.
+
+Steps Performed:
+1. Dataset Selection and Preparation:
+   - Chose the Online Retail Dataset.
+   - Cleaned missing values and handled outliers.
+   - Created new features like 'TotalPrice'.
+
+2. Exploratory Data Analysis (EDA):
+   - Analyzed the distribution of key features like TotalPrice.
+   - Generated a correlation matrix to understand feature relationships.
+
+3. Feature Engineering:
+   - Extracted temporal features (month, day).
+   - Aggregated customer-level data with total spending and activity metrics.
+
+4. Preprocessing for Neural Network:
+   - Normalized data using StandardScaler.
+
+5. Neural Network Development:
+   - Built a neural network with TensorFlow.
+   - Used a 128-64-32 architecture with dropout layers for regularization.
+
+6. Training and Evaluation:
+   - Segmented customers into 3 groups using K-means.
+   - Trained and evaluated the model with one-hot encoded labels.
+
+7. Insights and Market Segmentation:
+   - Segment 0: Low spenders; suggest discounts.
+   - Segment 1: Moderate spenders; loyalty programs.
+   - Segment 2: High spenders; premium products.
+
+8. Recommendations:
+   - Strategies tailored to each segment to boost engagement and revenue.
+
+9. Documentation:
+   - All findings saved to 'segmented_customers.csv'.
